@@ -251,6 +251,18 @@
         </div>
       </div>
       <!-- Project 2 End -->
+       <!-- Project 3 Start -->
+      <div class="col-md-6">
+        <div class="card shadow-sm mb-4">
+          <div class="card-body">
+            <h5 class="card-title">PHP CRUD</h5>
+            <p class="card-text">Create ,Read,Update,Delete</p>
+            <p><strong>Tech:</strong>HTML,CSS,JS,Bootstrap,PHP,MYSQL</p>
+            <button class="btn btn-outline-primary btn-sm" data-bs-toggle="modal" data-bs-target="#phpCrudModal">View More</button>
+          </div>
+        </div>
+      </div>
+      <!-- Project 3 End -->
     </div>
   </section>
 <!-- Project Section End -->
@@ -323,6 +335,40 @@
 </div>
 
 <!-- Project Model 2 End -->
+
+<!-- Project Model  Start -->
+<div class="modal fade" id="phpCrudModal" tabindex="-1" aria-labelledby="phpCrudModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="phpCrudModalLabel">PHP CRUD Application Details</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p>
+          This is a dynamic PHP CRUD (Create, Read, Update, Delete) Application built to manage basic database operations through a user-friendly web interface. The system allows users to add, view, edit, and delete records in real time.
+        </p>
+        <p>
+          The application demonstrates fundamental PHP functionalities with MySQL integration. Users can insert new data entries, browse existing records in a tabular format, update information via forms, and remove records with confirmation dialogs.
+        </p>
+        <p>
+          Data validation and error handling are implemented to ensure reliable interactions, and the interface is responsive to provide a seamless experience across desktop and mobile devices.
+        </p>
+        <p><strong>Key Features:</strong></p>
+        <ul>
+          <li>Create, Read, Update, Delete operations on records</li>
+          <li>Clean and responsive user interface</li>
+          <li>Form validation and error/success messaging</li>
+          <li>Data displayed in interactive tables</li>
+          <li>Modular and scalable PHP codebase</li>
+          <li>Secure MySQL database connection using mysqli or PDO</li>
+        </ul>
+        <p><strong>Technologies Used:</strong> PHP, MySQL, HTML, CSS, Bootstrap, JavaScript</p>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Project Model 3 End -->
 
   <!-- Contact Section -->
   <section id="contact" class="container py-5">
